@@ -3,10 +3,13 @@
 ## Introduction
 This is a simple ecomerce app where we can only add the data and retrive the data and add data into cart.
 ### Home Page 
+![Screenshot 2024-05-13 124525](https://github.com/Upendrapal0607/red-and-white-assognment/assets/112810287/0df62ab7-c70e-4947-aa58-99a3e149b494)
 
 ### Add new Product page
+![Screenshot 2024-05-13 124550](https://github.com/Upendrapal0607/red-and-white-assognment/assets/112810287/a0d331d0-4fd5-478e-9470-efac04eb7679)
 
 ### Cart Page 
+![Screenshot 2024-05-13 124623](https://github.com/Upendrapal0607/red-and-white-assognment/assets/112810287/3174f7d5-9722-40a5-ba44-eee80367c26b)
 
 
 ## Project Type
