@@ -49,7 +49,7 @@ export const AddProduct = () => {
         setLoading(true);
 
         const messageData = await axios.post(
-          "http://localhost:8080/products",
+          "https://task-managment-backend-rosy.vercel.app/products",
           productDetails
         );
         if (messageData?.data?.message == "product added success") {
@@ -60,6 +60,17 @@ export const AddProduct = () => {
             status: "success",
             duration: 5000,
             isClosable: true,
+          });
+          setProductDetails({
+            category: "",
+            title: "",
+            description: "",
+            price: 0,
+            oldPrice: 0,
+            rating: 0,
+            inStock: 0,
+            image: "",
+            ratecount: 0,
           });
         } else {
           toast({

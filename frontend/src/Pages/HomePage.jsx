@@ -11,7 +11,7 @@ export const HomePage = () => {
   const FetchProduct = async () => {
     setLoading(true);
     const data = await axios.get(
-      `http://localhost:8080/products?category=${category}`
+      `https://task-managment-backend-rosy.vercel.app/products?category=${category}`
     );
     setProduct(data?.data?.productList);
     setLoading(false);
